@@ -8,8 +8,14 @@ main {
   margin-left: calc((100% - 800px) / 2);
 }
 
-div {
+.left-column {
   width: 50%;
   float: left;
   background-color: yellow;
+}
+
+.right-column {
+  width: 50%;
+  float: left;
+  background-color: pink;
 }
