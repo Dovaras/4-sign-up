@@ -49,3 +49,15 @@ main {
 
 .close {
 }
+
+.mouse {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 50px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  box-shadow:
+    0 0 0 50px pink,
+    0 0 0 80px red;
+} 
