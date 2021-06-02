@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+  background-color: #7dbccd;
 }
 
 main {
@@ -41,7 +42,7 @@ main {
 .right-column {
   width: 60%;
   float: left;
-  background-color: pink;
+  background-color: white;
   /* margin: 60px; */
   padding: 60px;
 }
