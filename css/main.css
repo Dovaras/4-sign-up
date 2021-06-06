@@ -8,14 +8,31 @@ body * {
 }
 
 body {
-  background-color: #7dbccd;
+  background: #615ed2;
+  background: linear-gradient(171deg, #009fe0 0%, #4e3463 100%)
+}
+
+.background {
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/hill.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px)
+  /*background-position: right bottom;*/
 }
 
 main {
   display: inline-block;
   width: 800px;
-  margin-top: 60px;
-  margin-left: calc((100% - 800px) / 2);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+/*  margin-top: 60px;
+  margin-left: calc((100% - 800px) / 2); */
 }
 
 .left-column {
@@ -26,7 +43,7 @@ main {
   background-image: url(../img/hill.jpg);
   /*background-repeat: no-repeat;*/
   background-size: cover;
-  background-position: right bottom;
+  background-position: center;
 }
 
 .main-title {
