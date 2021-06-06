@@ -22,10 +22,11 @@ main {
   width: 40%;
   float: left;
   padding: 40px;
-  background-color: yellow;
+  color: #fff;
   background-image: url(../img/hill.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-size: cover;
+  background-position: right bottom;
 }
 
 .main-title {
@@ -38,6 +39,7 @@ main {
 }
 
 .bottom-links > a {
+  color: #fff;
 }
 
 .bottom-links > span {
